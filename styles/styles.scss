@@ -1,0 +1,48 @@
+// COLORS
+$primary-green: #207200;
+$primary-white: #fff;
+$primary-black: #1A2428;
+// MIXINS
+@mixin logo {
+    width: auto;
+    height: 45px;
+    filter: invert(58%) sepia(70%) saturate(6177%)hue-rotate(79deg) brightness(100%) contrast(102%);
+    align-self: center;
+}
+@mixin header-text() {
+    font-size: 1.4rem;
+    font-family: $lora;
+    line-height: 40px;
+    text-transform: capitalize;
+}
+@mixin sub-text(){
+    line-height: 15px;
+    font-size: 0.5rem;
+}
+@mixin button {
+    background-color:#207200;
+    border-radius:42px;
+    cursor:pointer;
+    color:#ffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size: 0.4rem;
+    width: 60px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+// FONTS
+$barlow: "Barlow", sans-serif;
+$lora: 'Lora', serif;
+
+@import './setup';
+@import './header';
+@import './about-us';
+@import './our-products';
+@import './our-gallery';
+@import './latest-news';
+@import './footer';

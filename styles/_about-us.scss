@@ -1,0 +1,53 @@
+#about-us {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .sec {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 250px;
+
+        h2 {
+            font-size: 1.1rem;
+            font-weight: 700;
+            font-family: $lora;
+            text-transform: capitalize;
+        }
+        h3 {
+            font-size: 0.5rem;
+            font-family: $lora;
+            text-transform: capitalize;
+        }
+        p {
+            @include sub-text();
+            // .p-one {
+            //     margin-bottom: 5px;
+            // }
+        }
+        .button {
+            @include button();
+        }
+    }
+    .green-box {
+        background-color:#629b4b;
+	    border-radius: 18px;
+        color: white;
+        padding: 40px 100px 40px 20px;
+        align-self: flex-start;
+        
+        span {
+            display: inline-block;
+        }
+        .green-box-header {
+            font-size: 0.6rem;
+            letter-spacing: 1px;
+            font-family: $lora;
+            text-transform: capitalize;
+        }
+    }
+}
