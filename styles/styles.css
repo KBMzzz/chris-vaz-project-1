@@ -264,6 +264,12 @@ html {
   overflow: hidden;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
 h1,
 h2,
 h3,
@@ -329,7 +335,6 @@ header .hero {
   background-position: center;
   background-size: cover;
   height: 100vh;
-  width: 100%;
 }
 header .hero .top-group {
   display: flex;
@@ -424,7 +429,6 @@ header .hero .button {
   border-radius: 18px;
   color: white;
   padding: 60px 80px 60px 20px;
-  margin-left: 90px;
 }
 #about-us .green-box .green-box-header {
   font-size: 1rem;
