@@ -360,7 +360,7 @@ header .hero h1 {
 }
 header .hero p {
   font-size: 0.7rem;
-  line-height: 1.05rem;
+  line-height: 1.1rem;
 }
 header .hero .button {
   background-color: #207200;
@@ -451,4 +451,23 @@ header .hero .button {
   letter-spacing: 0.05rem;
   font-family: "Lora", serif;
   text-transform: capitalize;
+}
+
+#our-products .top-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+}
+#our-products .top-header h3 {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+}
+#our-products .top-header p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  text-align: center;
+  width: 49%;
 }/*# sourceMappingURL=styles.css.map */

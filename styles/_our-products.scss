@@ -1,0 +1,21 @@
+#our-products {
+  .our-products-group {
+  }
+  .top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    h3 {
+      text-transform: uppercase;
+      font-family: $lora;
+      font-size: 1.2rem;
+    }
+    p {
+      @include para();
+      text-align: center;
+      width: 49%;
+    }
+  }
+}

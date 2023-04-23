@@ -65,8 +65,7 @@ header {
       width: 100%;
     }
     p {
-      font-size: 0.7rem;
-      line-height: 1.05rem;
+      @include para();
     }
     .button {
       @include button();

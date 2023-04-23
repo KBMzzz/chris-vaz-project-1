@@ -26,6 +26,10 @@ $primary-black: #1a2428;
   justify-content: center;
   align-items: center;
 }
+@mixin para {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
 // FONTS
 $barlow: "Barlow", sans-serif;
 $lora: "Lora", serif;
