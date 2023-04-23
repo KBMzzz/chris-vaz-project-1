@@ -1,9 +1,7 @@
 #about-us {
-  .wrapper {
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-  }
+  height: 55vh;
+  display: flex;
+  align-items: center;
   .about-us-group {
     display: flex;
     justify-content: center;
@@ -14,9 +12,9 @@
     flex-direction: column;
     justify-content: space-between;
     height: 34vh;
-    width: 60%;
+    width: 40%;
     h2 {
-      font-size: 1.5rem;
+      font-size: 1.6rem;
       font-weight: 700;
       font-family: $lora;
       text-transform: capitalize;
@@ -28,10 +26,7 @@
     }
     p {
       font-size: 0.7rem;
-      line-height: 0.85rem;
-      // .p-one {
-      //     margin-bottom: 5px;
-      // }
+      line-height: 1.1rem;
     }
     .button {
       @include button();
@@ -42,13 +37,17 @@
     background-color: #629b4b;
     border-radius: 18px;
     color: white;
-    padding: 60px 80px 60px 20px;
-    // margin-left: 90px;
-    // span {
-    //   display: inline-block;
-    // }
+    height: 20vh;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4.375rem 0 1.875rem;
+    line-height: 1.875rem;
+    margin-left: 4.6rem;
+    position: relative;
     .green-box-header {
-      font-size: 1rem;
+      font-size: 1.15rem;
       font-weight: 400;
       letter-spacing: 0.05rem;
       font-family: $lora;
