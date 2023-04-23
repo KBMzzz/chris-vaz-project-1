@@ -28,6 +28,9 @@
       font-size: 0.7rem;
       line-height: 1.1rem;
     }
+    .p-two {
+      margin-bottom: 1rem;
+    }
     .button {
       @include button();
     }

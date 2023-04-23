@@ -411,6 +411,9 @@ header .hero .button {
   font-size: 0.7rem;
   line-height: 1.1rem;
 }
+#about-us .left-sec .p-two {
+  margin-bottom: 1rem;
+}
 #about-us .left-sec .button {
   background-color: #207200;
   border-radius: 2.1rem;
