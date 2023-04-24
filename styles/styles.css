@@ -412,7 +412,7 @@ header .hero .button {
   line-height: 1.1rem;
 }
 #about-us .left-sec .p-two {
-  margin-bottom: 1rem;
+  margin-bottom: 20px;
 }
 #about-us .left-sec .button {
   background-color: #207200;
@@ -470,4 +470,130 @@ header .hero .button {
   line-height: 1.1rem;
   text-align: center;
   width: 49%;
+}
+#our-products .all-pics {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 40px;
+  margin-bottom: 100px;
+}
+#our-products .all-pics img {
+  height: 21vh;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#our-products .all-pics .pic-1-text,
+#our-products .all-pics .pic-2-text,
+#our-products .all-pics .pic-3-text,
+#our-products .all-pics .pic-4-text,
+#our-products .all-pics .pic-5-text,
+#our-products .all-pics .pic-6-text,
+#our-products .all-pics .pic-7-text,
+#our-products .all-pics .pic-8-text {
+  width: 200px;
+  height: 43vh;
+  background-color: white;
+}
+#our-products .all-pics .pic-1-text .border,
+#our-products .all-pics .pic-2-text .border,
+#our-products .all-pics .pic-3-text .border,
+#our-products .all-pics .pic-4-text .border,
+#our-products .all-pics .pic-5-text .border,
+#our-products .all-pics .pic-6-text .border,
+#our-products .all-pics .pic-7-text .border,
+#our-products .all-pics .pic-8-text .border {
+  border-left: 1px solid rgb(218, 218, 218);
+  border-right: 1px solid rgb(218, 218, 218);
+  border-bottom: 1px solid rgb(218, 218, 218);
+  height: 170px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 13px 13px 1px 13px;
+}
+#our-products .all-pics .pic-1-text p,
+#our-products .all-pics .pic-2-text p,
+#our-products .all-pics .pic-3-text p,
+#our-products .all-pics .pic-4-text p,
+#our-products .all-pics .pic-5-text p,
+#our-products .all-pics .pic-6-text p,
+#our-products .all-pics .pic-7-text p,
+#our-products .all-pics .pic-8-text p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  text-transform: capitalize;
+}
+#our-products .all-pics .pic-1-text .tag,
+#our-products .all-pics .pic-2-text .tag,
+#our-products .all-pics .pic-3-text .tag,
+#our-products .all-pics .pic-4-text .tag,
+#our-products .all-pics .pic-5-text .tag,
+#our-products .all-pics .pic-6-text .tag,
+#our-products .all-pics .pic-7-text .tag,
+#our-products .all-pics .pic-8-text .tag {
+  font-family: "Lora", serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+#our-products .all-pics .pic-1-text .price,
+#our-products .all-pics .pic-2-text .price,
+#our-products .all-pics .pic-3-text .price,
+#our-products .all-pics .pic-4-text .price,
+#our-products .all-pics .pic-5-text .price,
+#our-products .all-pics .pic-6-text .price,
+#our-products .all-pics .pic-7-text .price,
+#our-products .all-pics .pic-8-text .price {
+  color: #207200;
+  font-weight: 600;
+}
+#our-products .all-pics .pic-1-text .button,
+#our-products .all-pics .pic-2-text .button,
+#our-products .all-pics .pic-3-text .button,
+#our-products .all-pics .pic-4-text .button,
+#our-products .all-pics .pic-5-text .button,
+#our-products .all-pics .pic-6-text .button,
+#our-products .all-pics .pic-7-text .button,
+#our-products .all-pics .pic-8-text .button {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.6rem;
+  width: 4.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+  position: relative;
+  top: 0.9rem;
+  right: 0.1rem;
+}
+#our-products .button-load {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  width: 4.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: center;
+}
+#our-products .load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */

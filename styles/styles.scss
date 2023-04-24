@@ -11,7 +11,7 @@ $primary-black: #1a2428;
   align-self: center;
 }
 @mixin button {
-  background-color: #207200;
+  background-color: $primary-green;
   border-radius: 2.1rem;
   cursor: pointer;
   color: #ffffff;
