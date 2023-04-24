@@ -497,7 +497,7 @@ header .hero .button {
 #our-products .all-pics .pic-7-text,
 #our-products .all-pics .pic-8-text {
   width: 200px;
-  height: 43vh;
+  margin-bottom: 40px;
   background-color: white;
 }
 #our-products .all-pics .pic-1-text .border,
@@ -599,4 +599,103 @@ header .hero .button {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-bottom: 100px;
+}
+
+#our-gallery {
+  background-color: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../assets/grass.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  height: auto;
+  width: 100%;
+}
+#our-gallery .top-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-top: 100px;
+}
+#our-gallery .top-header h2 {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+}
+#our-gallery .top-header p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  text-align: center;
+  width: 49%;
+}
+#our-gallery .all-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+#our-gallery .all-buttons .button {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin: 2rem 0.5rem 1.5rem 0.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.6rem;
+  width: 4.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#our-gallery .all-buttons #button-all {
+  width: 40px;
+}
+#our-gallery .all-buttons #button-business {
+  width: 75px;
+}
+#our-gallery .all-buttons #button-development {
+  width: 95px;
+}
+#our-gallery .all-buttons #button-technology {
+  width: 85px;
+}
+#our-gallery .all-buttons #button-agency {
+  width: 65px;
+}
+#our-gallery .gallery {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+}
+#our-gallery .gallery li img {
+  width: 50%;
+  height: auto;
+}
+#our-gallery .button-load {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  width: 4.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#our-gallery .load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 100px;
 }/*# sourceMappingURL=styles.css.map */

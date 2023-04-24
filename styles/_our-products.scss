@@ -38,7 +38,7 @@
     .pic-7-text,
     .pic-8-text {
       width: 200px;
-      height: 43vh;
+      margin-bottom: 40px;
       background-color: white;
       .border {
         border-left: 1px solid rgb(218, 218, 218);
@@ -92,5 +92,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-bottom: 100px;
   }
 }
