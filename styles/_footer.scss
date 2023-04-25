@@ -1,0 +1,63 @@
+footer {
+  background-image: url(../assets/cow.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+  padding-top: 100px;
+  p,
+  a {
+    @include para();
+  }
+  .wrapper {
+    display: flex;
+  }
+  //   SOCIALS SECTION
+  .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: auto;
+    .icons {
+      width: auto;
+      height: 40px;
+      background-color: $primary-green;
+      border-radius: 50%;
+      padding: 15px;
+    }
+    .logo {
+      width: 84.75px;
+      height: auto;
+      filter: invert(58%) sepia(70%) saturate(6177%) hue-rotate(79deg)
+        brightness(100%) contrast(102%);
+    }
+  }
+  .quick-links {
+    display: flex;
+    flex-direction: column;
+  }
+  .recent-products {
+    display: flex;
+    flex-direction: column;
+  }
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  //   QUICK LINKS SECTION
+
+  // RECENT PRODUCTS SECTION
+  .recent-products {
+    .img-price {
+      img {
+        width: 40px;
+        height: auto;
+      }
+    }
+  }
+  //   FOOTER SECTION
+  .foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

@@ -784,4 +784,59 @@ header .hero .button {
   margin-bottom: 1.5rem;
   margin-top: 1rem;
   margin-left: 0.6rem;
+}
+
+footer {
+  background-image: url(../assets/cow.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  display: flex;
+  padding-top: 100px;
+}
+footer p,
+footer a {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
+footer .wrapper {
+  display: flex;
+}
+footer .socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: auto;
+}
+footer .socials .icons {
+  width: auto;
+  height: 40px;
+  background-color: #207200;
+  border-radius: 50%;
+  padding: 15px;
+}
+footer .socials .logo {
+  width: 84.75px;
+  height: auto;
+  filter: invert(58%) sepia(70%) saturate(6177%) hue-rotate(79deg) brightness(100%) contrast(102%);
+}
+footer .quick-links {
+  display: flex;
+  flex-direction: column;
+}
+footer .recent-products {
+  display: flex;
+  flex-direction: column;
+}
+footer .subscribe {
+  display: flex;
+  flex-direction: column;
+}
+footer .recent-products .img-price img {
+  width: 40px;
+  height: auto;
+}
+footer .foot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=styles.css.map */
