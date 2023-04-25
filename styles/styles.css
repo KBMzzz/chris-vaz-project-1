@@ -670,11 +670,16 @@ header .hero .button {
 }
 #our-gallery .gallery {
   list-style: none;
+}
+#our-gallery .gallery div {
   display: flex;
-  flex-wrap: wrap;
+}
+#our-gallery .gallery li {
+  display: flex;
+  justify-content: space-between;
 }
 #our-gallery .gallery li img {
-  width: 50%;
+  width: 98%;
   height: auto;
 }
 #our-gallery .button-load {
@@ -697,5 +702,6 @@ header .hero .button {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 100px;
   padding-bottom: 100px;
 }/*# sourceMappingURL=styles.css.map */

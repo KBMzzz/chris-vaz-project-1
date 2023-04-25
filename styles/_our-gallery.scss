@@ -69,11 +69,16 @@
   //   Gallery starts here
   .gallery {
     list-style: none;
-    display: flex;
-    flex-wrap: wrap;
+    div {
+      display: flex;
+      // flex-wrap: wrap;
+    }
     li {
+      display: flex;
+      justify-content: space-between;
+      // border: 1px solid red;
       img {
-        width: 50%;
+        width: 98%;
         height: auto;
       }
     }
@@ -85,6 +90,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
     padding-bottom: 100px;
   }
 }
