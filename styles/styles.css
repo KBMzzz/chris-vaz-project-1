@@ -790,8 +790,8 @@ footer {
   background-image: url(../assets/cow.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  display: flex;
   padding-top: 100px;
+  padding-bottom: 100px;
 }
 footer p,
 footer a {
@@ -800,19 +800,30 @@ footer a {
 }
 footer .wrapper {
   display: flex;
+  justify-content: space-between;
+}
+footer h3 {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Lora", serif;
 }
 footer .socials {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: auto;
+  width: 17%;
+}
+footer .socials .icons-container {
+  display: flex;
+  justify-content: space-between;
 }
 footer .socials .icons {
   width: auto;
-  height: 40px;
+  height: 30px;
   background-color: #207200;
   border-radius: 50%;
-  padding: 15px;
+  padding: 10px;
 }
 footer .socials .logo {
   width: 84.75px;
@@ -822,21 +833,33 @@ footer .socials .logo {
 footer .quick-links {
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  width: 17%;
+}
+footer .quick-links a {
+  text-decoration: none;
+  color: #1a2428;
+  text-transform: capitalize;
 }
 footer .recent-products {
   display: flex;
+  justify-content: space-between;
   flex-direction: column;
+}
+footer .recent-products .img-price img {
+  width: 45px;
+  height: auto;
+}
+footer .recent-products .img-price .img-price {
+  display: flex;
 }
 footer .subscribe {
   display: flex;
   flex-direction: column;
 }
-footer .recent-products .img-price img {
-  width: 40px;
-  height: auto;
-}
 footer .foot {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
 }/*# sourceMappingURL=styles.css.map */

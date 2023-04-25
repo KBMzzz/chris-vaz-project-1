@@ -2,27 +2,38 @@ footer {
   background-image: url(../assets/cow.png);
   background-repeat: no-repeat;
   background-position: bottom center;
-  display: flex;
   padding-top: 100px;
+  padding-bottom: 100px;
   p,
   a {
     @include para();
   }
   .wrapper {
     display: flex;
+    justify-content: space-between;
+  }
+  h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: $lora;
   }
   //   SOCIALS SECTION
   .socials {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: auto;
+    width: 17%;
+    .icons-container {
+      display: flex;
+      justify-content: space-between;
+    }
     .icons {
       width: auto;
-      height: 40px;
+      height: 30px;
       background-color: $primary-green;
       border-radius: 50%;
-      padding: 15px;
+      padding: 10px;
     }
     .logo {
       width: 84.75px;
@@ -31,33 +42,47 @@ footer {
         brightness(100%) contrast(102%);
     }
   }
+
+  //   QUICK LINKS SECTION
   .quick-links {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    width: 17%;
+    a {
+      text-decoration: none;
+      color: $primary-black;
+      text-transform: capitalize;
+    }
   }
-  .recent-products {
-    display: flex;
-    flex-direction: column;
-  }
-  .subscribe {
-    display: flex;
-    flex-direction: column;
-  }
-  //   QUICK LINKS SECTION
 
   // RECENT PRODUCTS SECTION
   .recent-products {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
     .img-price {
       img {
-        width: 40px;
+        width: 45px;
         height: auto;
       }
+      .img-price {
+        display: flex;
+        .tag {
+        }
+      }
     }
+  }
+  // SUBCRIBE SECTION
+  .subscribe {
+    display: flex;
+    flex-direction: column;
   }
   //   FOOTER SECTION
   .foot {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     align-items: center;
   }
 }
