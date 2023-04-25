@@ -1,0 +1,125 @@
+footer {
+  background-image: url(../assets/cow.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-top: 100px;
+  p,
+  a {
+    @include para();
+  }
+  .wrapper {
+    display: flex;
+    justify-content: space-between;
+  }
+  h3 {
+    text-transform: capitalize;
+    font-weight: 400;
+    font-size: 17px;
+    font-family: $lora;
+  }
+  //   SOCIALS SECTION
+  .socials {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 17%;
+    .icons-container {
+      display: flex;
+      justify-content: space-between;
+      padding-top: 10px;
+    }
+    .icons {
+      width: auto;
+      height: 30px;
+      background-color: $primary-green;
+      border-radius: 50%;
+      padding: 10px;
+    }
+    .logo {
+      width: 84.75px;
+      height: auto;
+      filter: invert(58%) sepia(70%) saturate(6177%) hue-rotate(79deg)
+        brightness(100%) contrast(102%);
+      padding-bottom: 10px;
+    }
+  }
+
+  //   QUICK LINKS SECTION
+  .quick-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 17%;
+    a {
+      text-decoration: none;
+      color: $primary-black;
+      text-transform: capitalize;
+    }
+  }
+
+  // RECENT PRODUCTS SECTION
+  .recent-products {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    .img-price {
+      display: flex;
+      img {
+        width: 45px;
+        height: auto;
+      }
+      .title {
+        font-family: $lora;
+        font-size: 9px;
+        text-transform: capitalize;
+      }
+      .price {
+        color: $primary-green;
+        font-weight: 600;
+        font-size: 11px;
+      }
+      .tag {
+        margin-left: 20px;
+      }
+    }
+  }
+  // SUBCRIBE SECTION
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    .subtitle {
+      text-transform: capitalize;
+      font-size: 0.65rem;
+      font-weight: 600;
+    }
+    p {
+      text-transform: capitalize;
+    }
+    span {
+      display: block;
+    }
+    form {
+      input {
+        padding: 7px 10px;
+        font-size: 0.55rem;
+        color: grey;
+        text-transform: capitalize;
+        border-color: rgb(247, 247, 247);
+        border-radius: 5px;
+        border-style: groove;
+      }
+    }
+  }
+  //   FOOTER SECTION
+  .foot {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 100px;
+    color: $primary-white;
+    padding-bottom: 10px;
+    font-size: 13px;
+    text-transform: capitalize;
+  }
+}

@@ -43,8 +43,9 @@ $lora: "Lora", serif;
 @import "./our-gallery";
 @import "./latest-news";
 @import "./footer";
+
 // CONTACT IMPORTS
 
-@import "/contact/contact-header";
-@import "/contact/contact-forms";
-@import "/contact/contact-footer";
+@import "./contact-header";
+// @import "./contact-forms";
+// @import "./contact-footer";
