@@ -901,4 +901,305 @@ footer .foot {
   padding-bottom: 10px;
   font-size: 13px;
   text-transform: capitalize;
+}
+
+#our-gallery {
+  background-color: rgba(255, 255, 255, 0.2);
+  background-image: linear-gradient(rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0.3)), url(../assets/grass.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
+  height: auto;
+  width: 100%;
+}
+#our-gallery .top-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  margin-top: 100px;
+}
+#our-gallery .top-header h2 {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  font-size: 1.2rem;
+}
+#our-gallery .top-header p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  text-align: center;
+  width: 49%;
+}
+#our-gallery .all-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+#our-gallery .all-buttons .button {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  margin: 2rem 0.5rem 1.5rem 0.5rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.6rem;
+  width: 4.5rem;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#our-gallery .all-buttons #button-all {
+  width: 40px;
+}
+#our-gallery .all-buttons #button-business {
+  width: 75px;
+}
+#our-gallery .all-buttons #button-development {
+  width: 95px;
+}
+#our-gallery .all-buttons #button-technology {
+  width: 85px;
+}
+#our-gallery .all-buttons #button-agency {
+  width: 65px;
+}
+#our-gallery .gallery {
+  list-style: none;
+}
+#our-gallery .gallery div {
+  display: flex;
+  margin-bottom: 5px;
+}
+#our-gallery .gallery li {
+  display: flex;
+  justify-content: space-between;
+}
+#our-gallery .gallery li img {
+  width: 98%;
+  height: auto;
+}
+#our-gallery .button-load {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  width: 4.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#our-gallery .load-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3.75rem;
+  padding-bottom: 5rem;
+}
+
+#latest-news {
+  background-color: #207200;
+  height: auto;
+  width: 100%;
+}
+#latest-news .top-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+#latest-news .top-header h2 {
+  text-transform: uppercase;
+  font-family: "Lora", serif;
+  color: #fff;
+  font-size: 1.2rem;
+  margin-top: 80px;
+  margin-bottom: 40px;
+}
+#latest-news .top-header p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  color: #fff;
+  text-align: center;
+  width: 60%;
+  margin-bottom: 60px;
+}
+#latest-news .blog-cards {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 5rem;
+}
+#latest-news .blog-cards li {
+  width: 14.4rem;
+  background-color: #fff;
+  border-radius: 0.2rem;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+}
+#latest-news .blog-cards li img {
+  width: 13.2rem;
+  height: auto;
+  border-radius: 0.25rem;
+  margin: 0.6rem;
+}
+#latest-news .blog-cards li h3 {
+  font-family: "Lora", serif;
+  font-weight: 400;
+  font-size: 0.965rem;
+  text-transform: capitalize;
+  line-height: 1.5rem;
+  padding: 0.6rem;
+}
+#latest-news .blog-cards li p {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+  padding: 0.6rem;
+}
+#latest-news .blog-cards li .button {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.7rem;
+  width: 6.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 0.6rem;
+}
+
+footer {
+  background-image: url(../assets/cow.png);
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  padding-top: 100px;
+}
+footer p,
+footer a {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
+footer .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+footer h3 {
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 17px;
+  font-family: "Lora", serif;
+}
+footer .socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 17%;
+}
+footer .socials .icons-container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+}
+footer .socials .icons {
+  width: auto;
+  height: 30px;
+  background-color: #207200;
+  border-radius: 50%;
+  padding: 10px;
+}
+footer .socials .logo {
+  width: 84.75px;
+  height: auto;
+  filter: invert(58%) sepia(70%) saturate(6177%) hue-rotate(79deg) brightness(100%) contrast(102%);
+  padding-bottom: 10px;
+}
+footer .quick-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 17%;
+}
+footer .quick-links a {
+  text-decoration: none;
+  color: #1a2428;
+  text-transform: capitalize;
+}
+footer .recent-products {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+footer .recent-products .img-price {
+  display: flex;
+}
+footer .recent-products .img-price img {
+  width: 45px;
+  height: auto;
+}
+footer .recent-products .img-price .title {
+  font-family: "Lora", serif;
+  font-size: 9px;
+  text-transform: capitalize;
+}
+footer .recent-products .img-price .price {
+  color: #207200;
+  font-weight: 600;
+  font-size: 11px;
+}
+footer .recent-products .img-price .tag {
+  margin-left: 20px;
+}
+footer .subscribe {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .subscribe .subtitle {
+  text-transform: capitalize;
+  font-size: 0.65rem;
+  font-weight: 600;
+}
+footer .subscribe p {
+  text-transform: capitalize;
+}
+footer .subscribe span {
+  display: block;
+}
+footer .subscribe form input {
+  padding: 7px 10px;
+  font-size: 0.55rem;
+  color: grey;
+  text-transform: capitalize;
+  border-color: rgb(247, 247, 247);
+  border-radius: 5px;
+  border-style: groove;
+}
+footer .foot {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 100px;
+  color: #fff;
+  padding-bottom: 10px;
+  font-size: 13px;
+  text-transform: capitalize;
 }/*# sourceMappingURL=styles.css.map */

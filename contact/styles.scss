@@ -34,17 +34,10 @@ $primary-black: #1a2428;
 $barlow: "Barlow", sans-serif;
 $lora: "Lora", serif;
 
-// MAIN PAGE IMPORTS
-
-@import "./setup";
-@import "./header";
-@import "./about-us";
-@import "./our-products";
-@import "./our-gallery";
-@import "./latest-news";
-@import "./footer";
 // CONTACT IMPORTS
 
+@import "/contact/styles.scss";
+@import "/contact/setup";
 @import "/contact/contact-header";
 @import "/contact/contact-forms";
 @import "/contact/contact-footer";
