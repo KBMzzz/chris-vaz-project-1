@@ -673,6 +673,7 @@ header .hero .button {
 }
 #our-gallery .gallery div {
   display: flex;
+  margin-bottom: 5px;
 }
 #our-gallery .gallery li {
   display: flex;
@@ -702,6 +703,6 @@ header .hero .button {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
-  padding-bottom: 100px;
+  margin-top: 3.75rem;
+  padding-bottom: 5rem;
 }/*# sourceMappingURL=styles.css.map */

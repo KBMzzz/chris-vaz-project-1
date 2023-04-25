@@ -1,0 +1,22 @@
+#latest-news {
+  background-color: $primary-green;
+  height: auto;
+  width: 100%;
+  .top-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 10vh;
+    margin-top: 100px;
+    h2 {
+      text-transform: uppercase;
+      font-family: $lora;
+      font-size: 1.2rem;
+    }
+    p {
+      @include para();
+      text-align: center;
+      width: 49%;
+    }
+  }
