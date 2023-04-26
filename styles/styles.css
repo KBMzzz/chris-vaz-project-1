@@ -388,14 +388,13 @@ header .hero .button {
 }
 #about-us .about-us-group {
   display: flex;
-  justify-content: center;
   align-items: center;
 }
 #about-us .left-sec {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 34vh;
+  height: auto;
   width: 40%;
 }
 #about-us .left-sec h2 {
@@ -403,18 +402,21 @@ header .hero .button {
   font-weight: 700;
   font-family: "Lora", serif;
   text-transform: capitalize;
+  margin-bottom: 20px;
 }
 #about-us .left-sec h3 {
   font-size: 0.73rem;
   font-family: "Lora", serif;
   text-transform: capitalize;
+  margin-bottom: 10px;
 }
 #about-us .left-sec p {
   font-size: 0.7rem;
   line-height: 1.1rem;
 }
 #about-us .left-sec .p-two {
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 25px;
 }
 #about-us .left-sec .button {
   background-color: #207200;
@@ -437,12 +439,11 @@ header .hero .button {
   background-color: #629b4b;
   border-radius: 18px;
   color: white;
-  height: 20vh;
   width: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 4.375rem 0 1.875rem;
+  padding: 60px 30px;
   line-height: 1.875rem;
   margin-left: 4.6rem;
   position: relative;
@@ -461,9 +462,7 @@ header .hero .button {
 #our-products .top-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  height: 10vh;
 }
 #our-products .top-header h3 {
   text-transform: uppercase;
@@ -475,6 +474,7 @@ header .hero .button {
   line-height: 1.1rem;
   text-align: center;
   width: 49%;
+  margin-top: 25px;
 }
 #our-products .all-pics {
   display: flex;
@@ -484,7 +484,7 @@ header .hero .button {
   margin-bottom: 40px;
 }
 #our-products .all-pics img {
-  height: 21vh;
+  height: auto;
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
@@ -615,15 +615,14 @@ header .hero .button {
 #our-gallery .top-header {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
-  height: 10vh;
   margin-top: 100px;
 }
 #our-gallery .top-header h2 {
   text-transform: uppercase;
   font-family: "Lora", serif;
   font-size: 1.2rem;
+  margin-bottom: 20px;
 }
 #our-gallery .top-header p {
   font-size: 0.7rem;
@@ -800,6 +799,7 @@ footer a {
 }
 footer .wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 footer h3 {

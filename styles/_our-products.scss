@@ -3,9 +3,7 @@
   .top-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 10vh;
     h3 {
       text-transform: uppercase;
       font-family: $lora;
@@ -15,6 +13,7 @@
       @include para();
       text-align: center;
       width: 49%;
+      margin-top: 25px;
     }
   }
   //   IMAGE SECTION
@@ -25,7 +24,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     img {
-      height: 21vh;
+      height: auto;
       width: 100%;
       object-fit: cover;
     }

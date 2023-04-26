@@ -13,14 +13,13 @@
   .top-header {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     align-items: center;
-    height: 10vh;
     margin-top: 100px;
     h2 {
       text-transform: uppercase;
       font-family: $lora;
       font-size: 1.2rem;
+      margin-bottom: 20px;
     }
     p {
       @include para();
