@@ -264,12 +264,6 @@ html {
   overflow: hidden;
 }
 
-html,
-body {
-  height: 100%;
-  width: 100%;
-}
-
 h1,
 h2,
 h3,
@@ -962,23 +956,65 @@ header .hero-contact h1 {
   height: 100%;
 }
 
-section .card .card-container {
+#contact-form {
+  padding-top: 100px;
+}
+#contact-form .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+#contact-form .card .card-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 43%;
   height: 120px;
-  border: 900px;
+  padding: 40px 110px 40px 40px;
+  border-left: 10px solid;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
   border-color: #207200;
+  background-color: #fff;
   margin-bottom: 30px;
 }
-section .card .card-container h3 {
+#contact-form .card .card-container h3 {
   font-family: "Lora", serif;
+  font-size: 16px;
   font-weight: 600;
   text-transform: capitalize;
+  margin-bottom: 10px;
 }
-section .card .card-container p {
+#contact-form .card .card-container p {
+  font-size: 16px;
   text-transform: capitalize;
+}
+#contact-form form fieldset {
+  height: 450px;
+  width: 420px;
+  box-shadow: 0px 2px 10px 0px rgba(0, 0, 0, 0.1);
+  border: none;
+}
+#contact-form form fieldset input,
+#contact-form form fieldset textarea {
+  text-transform: capitalize;
+  font-size: 13px;
+}
+#contact-form form fieldset .button {
+  background-color: #207200;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 0.7rem;
+  width: 6.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  margin-top: 1rem;
+  margin-left: 0.6rem;
 }
 
 footer {
