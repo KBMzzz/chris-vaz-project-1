@@ -49,9 +49,7 @@ header {
 
     .left-sec {
       display: flex;
-      justify-content: space-between;
       flex-direction: column;
-      height: 28vh;
     }
     img {
       width: auto;
@@ -65,6 +63,8 @@ header {
       width: 100%;
     }
     p {
+      padding-top: 25px;
+      padding-bottom: 25px;
       @include para();
     }
     .button {

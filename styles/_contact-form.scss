@@ -1,1 +1,24 @@
+section {
+  .card {
+    .card-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 43%;
+      height: 120px;
+      border: 900px;
+      border-color: $primary-green;
+      //   fix border left not showing up on the container
+      margin-bottom: 30px;
 
+      h3 {
+        font-family: $lora;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+      p {
+        text-transform: capitalize;
+      }
+    }
+  }
+}
