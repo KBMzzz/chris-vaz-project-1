@@ -7,6 +7,7 @@ footer {
   a {
     @include para();
   }
+  // FIND ISSUE WITH FOOTER SO IT WRAPS PROPERLY
   .wrapper {
     display: flex;
     justify-content: space-between;
@@ -24,13 +25,11 @@ footer {
     justify-content: space-between;
     width: 17%;
     .icons-container {
-      display: flex;
-      justify-content: space-between;
       padding-top: 10px;
     }
     .icons {
-      width: auto;
-      height: 30px;
+      width: 33px;
+      height: 33px;
       background-color: $primary-green;
       border-radius: 50%;
       padding: 10px;
