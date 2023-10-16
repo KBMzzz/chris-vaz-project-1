@@ -1,0 +1,38 @@
+// COLORS
+$primary-green: #207200;
+$primary-white: #fff;
+$primary-black: #1a2428;
+
+// MIXINS
+@mixin logo {
+  width: auto;
+  height: 2.25rem;
+  filter: invert(58%) sepia(70%) saturate(6177%) hue-rotate(79deg)
+    brightness(100%) contrast(102%);
+  align-self: center;
+}
+
+@mixin button {
+  background-color: $primary-green;
+  border-radius: 2.1rem;
+  cursor: pointer;
+  color: #ffffff;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  width: 4.5rem;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@mixin para {
+  font-size: 0.7rem;
+  line-height: 1.1rem;
+}
+
+// FONTS
+$barlow: "Barlow", sans-serif;
+$lora: "Lora", serif;

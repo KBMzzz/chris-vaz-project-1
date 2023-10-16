@@ -1,3 +1,5 @@
+@use "./variables" as *;
+
 #latest-news {
   background-color: $primary-green;
   height: auto;
