@@ -281,7 +281,8 @@ html {
 }
 
 .wrapper {
-  max-width: 900px;
+  max-width: 1200px;
+  width: 49%;
   margin: 0 auto;
 }
 
@@ -1055,6 +1056,8 @@ header .hero-contact h1 {
   width: 7.5rem;
   font-weight: 600;
   display: flex;
+  padding: 1rem 1rem;
+  line-height: 0rem;
   justify-content: center;
   align-items: center;
   margin-top: 1rem;
