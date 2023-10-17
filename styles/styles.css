@@ -277,7 +277,6 @@ html {
   font-family: "Barlow", sans-serif;
   font-size: 125%;
   color: #1a2428;
-  overflow-x: hidden;
 }
 
 .wrapper {
@@ -905,10 +904,6 @@ header .top-bar {
   z-index: 10;
   padding-top: 0.6rem;
   padding-bottom: 0.6rem;
-}
-header .top-bar .wrapper {
-  display: flex;
-  justify-content: space-between;
 }
 header .top-bar .logo {
   width: auto;
