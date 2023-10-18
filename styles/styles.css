@@ -264,6 +264,8 @@ html {
   overflow: hidden;
 }
 
+html,
+body,
 h1,
 h2,
 h3,
@@ -281,7 +283,7 @@ html {
 
 .wrapper {
   max-width: 1200px;
-  width: 49%;
+  width: 47%;
   margin: 0 auto;
 }
 
