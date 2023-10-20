@@ -330,13 +330,13 @@ header .hero {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 header .hero .top-group {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
 }
 header .hero .left-sec {
   display: flex;
