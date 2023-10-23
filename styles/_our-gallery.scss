@@ -31,15 +31,15 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: auto;
+    flex-wrap: wrap;
     .button {
-      background-color: $primary-green;
+      background-color: #207200;
       border-radius: 2.1rem;
       cursor: pointer;
       color: #ffffff;
       padding-top: 0.4rem;
       padding-bottom: 0.4rem;
-      margin: 2rem 0.5rem 1.5rem 0.5rem;
+      margin: 1rem;
       text-decoration: none;
       text-transform: capitalize;
       font-size: 0.6rem;
@@ -48,6 +48,7 @@
       display: flex;
       justify-content: center;
       align-items: center;
+      padding: 0.4rem;
     }
     #button-all {
       width: 40px;
