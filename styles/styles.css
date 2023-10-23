@@ -605,8 +605,6 @@ header .hero .button {
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: contain;
-  height: auto;
-  width: 100%;
 }
 #our-gallery .top-header {
   display: flex;
@@ -705,8 +703,6 @@ header .hero .button {
 
 #latest-news {
   background-color: #207200;
-  height: auto;
-  width: 100%;
 }
 #latest-news .top-header {
   display: flex;
