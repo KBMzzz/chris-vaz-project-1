@@ -732,7 +732,7 @@ header .hero .button {
 #latest-news .blog-cards {
   list-style: none;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   padding-bottom: 5rem;
 }
@@ -741,6 +741,7 @@ header .hero .button {
   background-color: #fff;
   border-radius: 0.2rem;
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.4);
+  margin: 0.3rem;
 }
 #latest-news .blog-cards li img {
   width: 13.2rem;
