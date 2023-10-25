@@ -474,7 +474,6 @@ header .hero .button {
 }
 #our-products .all-pics {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 40px;
   margin-bottom: 40px;
@@ -494,6 +493,8 @@ header .hero .button {
 #our-products .all-pics .pic-7-text,
 #our-products .all-pics .pic-8-text {
   width: 200px;
+  margin-right: 0.5rem;
+  margin-left: 0.5rem;
   margin-bottom: 40px;
   background-color: white;
 }
