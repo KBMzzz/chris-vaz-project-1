@@ -904,6 +904,27 @@ footer .foot {
   header .hero .top-group {
     flex-direction: column-reverse;
   }
+  header .hero .left-sec {
+    margin-top: 3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+}
+@media (max-width: 740px) {
+  #about-us .left-sec {
+    margin-top: 3rem;
+    width: auto;
+  }
+  #about-us .about-us-group {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+  }
+  #about-us .green-box {
+    margin: auto;
+    width: 80%;
+  }
 }
 header .top-bar {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);

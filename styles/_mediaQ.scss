@@ -6,6 +6,30 @@
       .top-group {
         flex-direction: column-reverse;
       }
+      .left-sec {
+        margin-top: 3rem;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (max-width: 740px) {
+  #about-us {
+    .left-sec {
+      margin-top: 3rem;
+      width: auto;
+    }
+    .about-us-group {
+      display: flex;
+      align-items: center;
+      flex-direction: column-reverse;
+    }
+    .green-box {
+      margin: auto;
+      width: 80%;
     }
   }
 }
