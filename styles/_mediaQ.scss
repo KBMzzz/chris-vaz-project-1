@@ -1,4 +1,11 @@
 @use "./variables" as *;
 
-@media (max-width: 1200px) {
+@media (max-width: 940px) {
+  header {
+    .hero {
+      .top-group {
+        flex-direction: column-reverse;
+      }
+    }
+  }
 }

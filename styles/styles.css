@@ -900,6 +900,11 @@ footer .foot {
   text-transform: capitalize;
 }
 
+@media (max-width: 940px) {
+  header .hero .top-group {
+    flex-direction: column-reverse;
+  }
+}
 header .top-bar {
   box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.1);
   position: relative;
