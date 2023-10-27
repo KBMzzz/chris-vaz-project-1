@@ -1,5 +1,14 @@
 @use "./variables" as *;
 
+@media (max-width: 956px) {
+  #contact-form {
+    .wrapper {
+      justify-content: center;
+    }
+  }
+}
+// fix
+
 @media (max-width: 940px) {
   header {
     .hero {
