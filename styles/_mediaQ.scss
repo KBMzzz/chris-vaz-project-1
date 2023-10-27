@@ -33,3 +33,14 @@
     }
   }
 }
+
+@media (max-width: 540px) {
+  header {
+    .hero {
+      img {
+        height: auto;
+        width: 90%;
+      }
+    }
+  }
+}
