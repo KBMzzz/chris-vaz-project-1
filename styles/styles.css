@@ -1212,4 +1212,10 @@ footer .foot {
     height: auto;
     width: 90%;
   }
+  #contact-form form fieldset {
+    width: 100%;
+  }
+  #contact-form .card .card-container {
+    padding: 40px 50px 40px 40px;
+  }
 }
