@@ -794,9 +794,9 @@ footer a {
   line-height: 1.1rem;
 }
 footer .wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 50px;
 }
 footer h3 {
   text-transform: capitalize;
@@ -804,20 +804,14 @@ footer h3 {
   font-size: 17px;
   font-family: "Lora", serif;
 }
-footer .socials {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 17%;
-}
 footer .socials .icons-container {
+  padding-top: 10px;
   display: flex;
   justify-content: space-between;
-  padding-top: 10px;
 }
 footer .socials .icons {
-  width: 33px;
-  height: 33px;
+  width: 1.65rem;
+  height: 1.65rem;
   background-color: #207200;
   border-radius: 50%;
   padding: 10px;
@@ -830,9 +824,9 @@ footer .socials .logo {
 }
 footer .quick-links {
   display: flex;
-  flex-direction: column;
   justify-content: space-between;
-  width: 17%;
+  align-content: center;
+  flex-direction: column;
 }
 footer .quick-links a {
   text-decoration: none;
