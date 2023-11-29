@@ -48,6 +48,9 @@ footer {
     justify-content: space-between;
     align-content: center;
     flex-direction: column;
+    li {
+      list-style: none;
+    }
 
     a {
       text-decoration: none;

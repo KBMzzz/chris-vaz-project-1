@@ -828,6 +828,9 @@ footer .quick-links {
   align-content: center;
   flex-direction: column;
 }
+footer .quick-links li {
+  list-style: none;
+}
 footer .quick-links a {
   text-decoration: none;
   color: #1a2428;
